@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html', {
+"title": "Главная"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/header.html', {})
+		<main class="page">
+			<section class="page__main-block main-block">
+				<div class="main-block__container _container">
+					<div class="main-block__wrap">
+						<div class="main-block__buttons">
+							<a href="#" class="main-block__button">винная карта</a>
+							<a href="#" class="main-block__button">дегустация</a>
+						</div>
+					</div>
+				</div>
+				<img src="img/main/main.png" alt="background">
+			</section>
+			<section class="page__description description">
+				<div class="description__container _container">
+					<div class="description__wrap">
+						<div class="description__body">
+							<h2 class="description__title title">Лучший вкус, это вкус долголетнего вина</h2>
+							<div class="description__line"></div>
+							<p class="description__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								Feugiat
+								enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed
+								fermentum.
+								Felis adipiscing morbi sodales ac. Mauris dictumst risus pulvinar blandit elit.
+								Vestibulum
+								quam ultrices nascetur et viverra suscipit. Proin vitae aliquet leo aliquam amet rutrum.
+								Lectus auctor purus ultrices enim ultrices. Augue fringilla tellus tortor orci ultrices
+								sed.
+								Viverra cras sapien, pellentesque viverra malesuada. Tellus dolor, eget vitae dignissim
+								molestie eget sit duis. Vitae dui vel pretium euismod diam. Pellentesque amet, lacus,
+								amet,
+								quis risus. Pellentesque scelerisque nunc, orci aliquam quis.</p>
+							<div class="description__img">
+								<img src="img/description/glass.png" alt="glass">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		@@include('html/footer.html', {})
+	</div>
+
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
